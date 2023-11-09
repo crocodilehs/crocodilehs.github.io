@@ -6,17 +6,10 @@
 
 #head img {
     border-radius: 50%;
-    max-width: 100px;
-}
-
-.profile {
-    border: 2px solid #b3ff00;
-    border-radius: 50%;
-    transition: border-color 0.3s, transform 0.2s;
+    max-width: 150px;
 }
 
 .profile:hover {
-    border-color: #51b300;
     transform: scale(1.1);
 }
 

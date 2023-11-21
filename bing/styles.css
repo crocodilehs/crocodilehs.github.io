@@ -1,0 +1,39 @@
+body,
+img {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#all_img {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    /*網格模板每列6個，寬度自動*/
+    grid-gap: 13px;
+    /*網格間距*/
+    padding: 16px 24px 24px;
+    margin-bottom: 25px;
+}
+
+.img_cont img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.img_cont img:hover {
+    transform: scale(1.05);
+    filter: brightness(120%);
+}
